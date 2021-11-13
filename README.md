@@ -1,4 +1,6 @@
 # just Testing movenet model  
 make venv  
-pip3 install -U --force-reinstall pip
+python -m pip install -U --force-reinstall pip  
+pip install ipykernel
+python -m ipykernel install --user --name==envname  
 go
